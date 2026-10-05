@@ -1,0 +1,59 @@
+/* MarkIdentity — App shell.
+   Design system lives in tokens.css. This file provides app-level layout. */
+
+body {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--bg-page);
+  color: var(--text);
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  background: var(--bg-page);
+}
+
+/* Old gradient background replaced by clean light surface */
+.background { display: none; }
+
+.app-content {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-page);
+}
+
+.app-content.active { display: block; }
+
+/* Page wrapper used by older pages */
+.page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 0 100px;
+  background: var(--bg-page);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.page.active { display: block; }
+
+/* Screen wrapper used by Splash/Welcome/Auth */
+.screen {
+  position: fixed;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 320ms ease;
+  background: var(--bg-page);
+  z-index: 10;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.screen.active { opacity: 1; pointer-events: all; }
