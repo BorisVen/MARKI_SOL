@@ -638,7 +638,7 @@ function NfcBindTab() {
             
             // Generate test QR code
             try {
-                const qrUrl = `https://alankharisov.github.io/idenity/?nfc=${r.nfcUid}`;
+                const qrUrl = `https://borisven.github.io/MARKI_SOL/?nfc=${r.nfcUid}`;
                 const dataUrl = await QRCode.toDataURL(qrUrl, { margin: 1, width: 200, color: { dark: '#000000', light: '#ffffff' } });
                 setQrCodeUrl(dataUrl);
             } catch (err) {

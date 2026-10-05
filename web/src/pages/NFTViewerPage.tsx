@@ -51,7 +51,7 @@ const NFTViewerPage: React.FC<NFTViewerPageProps> = ({ nft, onClose }) => {
   const generateQRCode = async () => {
     try {
       // Create a standard URL so regular phone cameras can scan and open it natively
-      const baseUrl = window.location.origin + (window.location.pathname.includes('/idenity') ? '/idenity' : '');
+      const baseUrl = window.location.origin + (window.location.pathname.includes('/MARKI_SOL') ? '/MARKI_SOL' : '');
       const qrData = `${baseUrl}/nft/${nft.id}?issuer=idenity&owner=${encodeURIComponent(nft.ownerId || nft.userId || '')}&v=1`;
       const url = await QRCode.toDataURL(qrData, {
         width: 300,
@@ -66,7 +66,7 @@ const NFTViewerPage: React.FC<NFTViewerPageProps> = ({ nft, onClose }) => {
 
   const generateCollectionQRCodes = async () => {
     try {
-      const baseUrl = window.location.origin + (window.location.pathname.includes('/idenity') ? '/idenity' : '');
+      const baseUrl = window.location.origin + (window.location.pathname.includes('/MARKI_SOL') ? '/MARKI_SOL' : '');
       // Collection-level QR (links to first item)
       const firstItemId = (nft.walletNftIds && nft.walletNftIds.length > 0) ? nft.walletNftIds[0] : nft.id;
       const ownerId = encodeURIComponent(nft.ownerId || nft.userId || '');

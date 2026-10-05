@@ -5,12 +5,12 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 
-// GitHub Pages serves the production web build under /idenity; the local dev
+// GitHub Pages serves the production web build under /MARKI_SOL; the local dev
 // server lives at the root.
 const routerBasename =
     process.env.NODE_ENV !== 'production'
         ? '/'
-        : '/idenity';
+        : '/MARKI_SOL';
 
 const restoreGitHubPagesPath = () => {
     const params = new URLSearchParams(window.location.search);

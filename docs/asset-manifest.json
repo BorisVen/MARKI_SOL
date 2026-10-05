@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MARKI_SOL/static/css/main.36ff6e08.css",
+    "main.js": "/MARKI_SOL/static/js/main.fd129c83.js",
+    "static/media/sora-latin.woff2": "/MARKI_SOL/static/media/sora-latin.f3cc54c013c7d58f103d.woff2",
+    "static/media/space-grotesk-latin.woff2": "/MARKI_SOL/static/media/space-grotesk-latin.236fcdd02a5a87081377.woff2",
+    "static/media/space-grotesk-latin-ext.woff2": "/MARKI_SOL/static/media/space-grotesk-latin-ext.22a63b5b94e4eadcd0c9.woff2",
+    "static/media/sora-latin-ext.woff2": "/MARKI_SOL/static/media/sora-latin-ext.6df662a435e8890f491b.woff2",
+    "static/media/space-grotesk-vietnamese.woff2": "/MARKI_SOL/static/media/space-grotesk-vietnamese.90b2f7aea1866693d7ef.woff2",
+    "index.html": "/MARKI_SOL/index.html",
+    "main.36ff6e08.css.map": "/MARKI_SOL/static/css/main.36ff6e08.css.map",
+    "main.fd129c83.js.map": "/MARKI_SOL/static/js/main.fd129c83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36ff6e08.css",
+    "static/js/main.fd129c83.js"
+  ]
+}
