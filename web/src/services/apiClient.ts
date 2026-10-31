@@ -1,7 +1,7 @@
 import { auth } from '../firebase/config';
 
 const LOCAL_API_URL = 'http://localhost:8090';
-const PROD_API_URL = 'https://idenity.onrender.com';
+const PROD_API_URL = 'https://marki-gj28.onrender.com';
 
 const envApiUrl = process.env.REACT_APP_API_URL;
 
